@@ -4,10 +4,10 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/dipeshdulal/clean-gin/constants"
-	"github.com/dipeshdulal/clean-gin/domains"
-	"github.com/dipeshdulal/clean-gin/lib"
-	"github.com/dipeshdulal/clean-gin/models"
+	"github.com/vhakHCMUS/SMARTKET-GO-CLEAN-ARC/constants"
+	"github.com/vhakHCMUS/SMARTKET-GO-CLEAN-ARC/domains"
+	"github.com/vhakHCMUS/SMARTKET-GO-CLEAN-ARC/lib"
+	"github.com/vhakHCMUS/SMARTKET-GO-CLEAN-ARC/models"
 	"github.com/gin-gonic/gin"
 	"gorm.io/gorm"
 )

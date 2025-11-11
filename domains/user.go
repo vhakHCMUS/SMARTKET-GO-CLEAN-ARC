@@ -1,7 +1,7 @@
 package domains
 
 import (
-	"github.com/dipeshdulal/clean-gin/models"
+	"github.com/vhakHCMUS/SMARTKET-GO-CLEAN-ARC/models"
 	"gorm.io/gorm"
 )
 

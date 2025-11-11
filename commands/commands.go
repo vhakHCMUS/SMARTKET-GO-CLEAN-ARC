@@ -3,7 +3,7 @@ package commands
 import (
 	"context"
 
-	"github.com/dipeshdulal/clean-gin/lib"
+	"github.com/vhakHCMUS/SMARTKET-GO-CLEAN-ARC/lib"
 	"github.com/spf13/cobra"
 	"go.uber.org/fx"
 	"go.uber.org/fx/fxevent"

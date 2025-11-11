@@ -1,10 +1,10 @@
 package services
 
 import (
-	"github.com/dipeshdulal/clean-gin/domains"
-	"github.com/dipeshdulal/clean-gin/lib"
-	"github.com/dipeshdulal/clean-gin/models"
-	"github.com/dipeshdulal/clean-gin/repository"
+	"github.com/vhakHCMUS/SMARTKET-GO-CLEAN-ARC/domains"
+	"github.com/vhakHCMUS/SMARTKET-GO-CLEAN-ARC/lib"
+	"github.com/vhakHCMUS/SMARTKET-GO-CLEAN-ARC/models"
+	"github.com/vhakHCMUS/SMARTKET-GO-CLEAN-ARC/repository"
 	"gorm.io/gorm"
 )
 

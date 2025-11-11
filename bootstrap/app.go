@@ -1,7 +1,7 @@
 package bootstrap
 
 import (
-	"github.com/dipeshdulal/clean-gin/commands"
+	"github.com/vhakHCMUS/SMARTKET-GO-CLEAN-ARC/commands"
 	"github.com/spf13/cobra"
 )
 

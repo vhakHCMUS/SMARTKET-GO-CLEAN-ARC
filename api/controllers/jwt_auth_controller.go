@@ -1,8 +1,8 @@
 package controllers
 
 import (
-	"github.com/dipeshdulal/clean-gin/domains"
-	"github.com/dipeshdulal/clean-gin/lib"
+	"github.com/vhakHCMUS/SMARTKET-GO-CLEAN-ARC/domains"
+	"github.com/vhakHCMUS/SMARTKET-GO-CLEAN-ARC/lib"
 	"github.com/gin-gonic/gin"
 )
 

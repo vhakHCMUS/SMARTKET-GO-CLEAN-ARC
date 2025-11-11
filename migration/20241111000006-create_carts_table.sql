@@ -1,0 +1,12 @@
+-- +migrate Up
+CREATE TABLE IF NOT EXISTS carts (
+    id SERIAL PRIMARY KEY,
+    user_id INTEGER UNIQUE NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE INDEX idx_carts_user_id ON carts(user_id);
+
+-- +migrate Down
+DROP TABLE IF EXISTS carts;

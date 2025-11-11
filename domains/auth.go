@@ -1,6 +1,6 @@
 package domains
 
-import "github.com/dipeshdulal/clean-gin/models"
+import "github.com/vhakHCMUS/SMARTKET-GO-CLEAN-ARC/models"
 
 type AuthService interface {
 	Authorize(tokenString string) (bool, error)

@@ -4,9 +4,9 @@ import (
 	"errors"
 
 	"github.com/dgrijalva/jwt-go"
-	"github.com/dipeshdulal/clean-gin/domains"
-	"github.com/dipeshdulal/clean-gin/lib"
-	"github.com/dipeshdulal/clean-gin/models"
+	"github.com/vhakHCMUS/SMARTKET-GO-CLEAN-ARC/domains"
+	"github.com/vhakHCMUS/SMARTKET-GO-CLEAN-ARC/lib"
+	"github.com/vhakHCMUS/SMARTKET-GO-CLEAN-ARC/models"
 )
 
 // JWTAuthService service relating to authorization

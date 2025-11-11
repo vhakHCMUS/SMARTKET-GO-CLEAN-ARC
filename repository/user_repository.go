@@ -1,7 +1,7 @@
 package repository
 
 import (
-	"github.com/dipeshdulal/clean-gin/lib"
+	"github.com/vhakHCMUS/SMARTKET-GO-CLEAN-ARC/lib"
 	"gorm.io/gorm"
 )
 
