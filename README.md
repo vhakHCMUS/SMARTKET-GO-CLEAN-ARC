@@ -14,6 +14,22 @@ Want to ask something, contribute or be part of discussions, 💬 Join us on [Di
 - Make sure you have docker installed.
 - Copy `.env.example` to `.env`
 - Run `docker-compose up -d`
+- Run migrations and seed data:
+  ```bash
+  # Run all schema migrations
+  docker exec -i backend-database-1 mysql -uroot -proot test < migration/20241111000001-create_users_table.sql
+  docker exec -i backend-database-1 mysql -uroot -proot test < migration/20241111000002-create_sessions_table.sql
+  docker exec -i backend-database-1 mysql -uroot -proot test < migration/20241111000003-create_merchants_table.sql
+  docker exec -i backend-database-1 mysql -uroot -proot test < migration/20241111000004-create_products_table.sql
+  docker exec -i backend-database-1 mysql -uroot -proot test < migration/20241111000005-create_locations_table.sql
+  docker exec -i backend-database-1 mysql -uroot -proot test < migration/20241111000006-create_carts_table.sql
+  docker exec -i backend-database-1 mysql -uroot -proot test < migration/20241111000007-create_cart_items_table.sql
+  docker exec -i backend-database-1 mysql -uroot -proot test < migration/20241111000008-create_orders_table.sql
+  docker exec -i backend-database-1 mysql -uroot -proot test < migration/20241111000009-create_order_items_table.sql
+  
+  # Seed sample data
+  docker exec -i backend-database-1 mysql -uroot -proot --default-character-set=utf8mb4 test < migration/99-seed-data.sql
+  ```
 - Go to `localhost:5000` to verify if the server works.
 - [Adminer](https://www.adminer.org/) Database Management runs at `5001` .
 
